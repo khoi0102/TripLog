@@ -1,10 +1,10 @@
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Point;
-
 import org.openstreetmap.gui.jmapviewer.Coordinate;
 import org.openstreetmap.gui.jmapviewer.MapMarkerCircle;
 import org.openstreetmap.gui.jmapviewer.interfaces.MapMarker;
+
 
 /**
  * @author wellsantos@wellsantos.com
@@ -41,5 +41,10 @@ public class IconMarker extends MapMarkerCircle implements MapMarker {
     public void setImage(Image image) {
         this.image = image;
     }
+    public void setCoordinate(Coordinate coord) {
+        this.setLat(coord.getLat());
+        this.setLon(coord.getLon());
+    }
+
 
 }
