@@ -1,8 +1,6 @@
 TripLog
 
-The code provided appears to be a Java program that analyzes trip data stored in a CSV file. It includes classes and methods to read trip data, perform stop detection using two different heuristics, calculate various trip statistics, and visualize the trip on a map using JMapViewer.
-
-The code provided appears to be a Java program that analyzes trip data stored in a CSV file. It includes classes and methods to read trip data, perform stop detection using two different heuristics, calculate various trip statistics, and visualize the trip on a map using JMapViewer.
+A Java program that analyzes trip data stored in a CSV file. It includes classes and methods to read trip data, perform stop detection using two different heuristics, calculate various trip statistics, and visualize the trip on a map using JMapViewer.
 
 The TripPoint class represents a point in a trip and contains attributes for time, latitude, and longitude. It also includes methods for distance calculation, speed calculation, and other trip-related calculations.
 
